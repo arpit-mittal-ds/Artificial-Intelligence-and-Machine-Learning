@@ -1,5 +1,3 @@
-# Notes
-
 ## Motivation :)
 
 There has been a critical shortage of engineers capable of building production machine learning models in the cloud. Strong software engineering skills mixed with a foundational knowledge of both cloud computing and machine learning is an effective template for machine learning engineering.
@@ -11,11 +9,11 @@ The goal of the Machine Learning Engineer Nanodegree program was to equip learne
 
 ### Mastered the following skills:
 
-Use the Azure Machine Learning platform
+Azure Machine Learning platform
 
 Operationalize Machine Learning on Azure
 
-Correctly select the appropriate Machine Learning service and optimize it
+select the appropriate Machine Learning service and optimize it
 
 Through this course I was able to enhance my skills by **building and deploying sophisticated ML solutions** using popular open source tools and **frameworks such as scikit-learn.**
 Using **AzureML’s MLOps capabilities**, I gained experience in understanding ML models, protecting people and their data, and controlling the end-to-end ML lifecycle at scale.
