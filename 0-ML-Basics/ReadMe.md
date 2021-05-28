@@ -2,6 +2,11 @@
 
 ## What is Machine Learning ?
 
+A field of study that gives computers the **ability to learn without being explicitly programmed**. 
+
+eg. a computer playing by itself and improving.
+More Experience -> Better Results
+
 
 ![image](https://user-images.githubusercontent.com/68102477/119938028-18caa000-bfcf-11eb-9034-d073a41f0844.png)
 
@@ -34,6 +39,14 @@ Or even prepare the data to **train a machine learning model that predicts a stu
 
 ![image](https://user-images.githubusercontent.com/68102477/119939475-47497a80-bfd1-11eb-8c33-f88afec645df.png)
 
+## Supervised Learning Problems
+
+We are given a dataset
+
+We already know what our correct output should look like
+
+Relationship between Inputs and Outputs exists
+
 ### Supervised Learning Example - 1
 
 ![image](https://user-images.githubusercontent.com/68102477/119939678-8d9ed980-bfd1-11eb-8ec7-98dd9ed72979.png)
@@ -65,10 +78,12 @@ Or even prepare the data to **train a machine learning model that predicts a stu
 ### Regression
 ![image](https://user-images.githubusercontent.com/68102477/119937634-790d1200-bfce-11eb-9510-c56e674efea3.png)
 
-### Classificaiton vs Regression - Question-1
+### Classificaiton vs Regression 
 
-![image](https://user-images.githubusercontent.com/68102477/119940339-609ef680-bfd2-11eb-966b-16d9bf2364a5.png)
+[Fundamentally, classification is about predicting a label and regression is about predicting a quantity](https://medium.com/quick-code/regression-versus-classification-machine-learning-whats-the-difference-345c56dd15f7)
 
+**Given data about size of houses, predict their price**
+**Predict whether a house will sell for less or more than a given price**
 
 ## Unsupervised Learning Problems
 
