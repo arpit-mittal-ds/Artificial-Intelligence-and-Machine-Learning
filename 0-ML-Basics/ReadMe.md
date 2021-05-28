@@ -1,5 +1,9 @@
 # Notes
 
+## What is Machine Learning ?
+
+
+
 ## Supervised and Unsupervised Learning Algorithms
 
 
