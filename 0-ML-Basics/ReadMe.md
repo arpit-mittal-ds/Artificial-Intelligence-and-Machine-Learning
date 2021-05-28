@@ -29,6 +29,7 @@ Or even prepare the data to **train a machine learning model that predicts a stu
 ![image](https://user-images.githubusercontent.com/68102477/119937298-e3718280-bfcd-11eb-9400-6148f4b068df.png)
 
 
+
 ## Types of Machine Learning Problems
 
 ![image](https://user-images.githubusercontent.com/68102477/119939475-47497a80-bfd1-11eb-8c33-f88afec645df.png)
@@ -69,19 +70,26 @@ Or even prepare the data to **train a machine learning model that predicts a stu
 ![image](https://user-images.githubusercontent.com/68102477/119940339-609ef680-bfd2-11eb-966b-16d9bf2364a5.png)
 
 
-Unsupervised
+## Unsupervised Learning Problems
 
 ![image](https://user-images.githubusercontent.com/68102477/119937692-93df8680-bfce-11eb-99ba-1d93b2da9614.png)
 
-Clustering
+### Example
+
+![image](https://user-images.githubusercontent.com/68102477/119941622-32221b00-bfd4-11eb-919f-51bebd6889fe.png)
+
+
+### Clustering
 
 ![image](https://user-images.githubusercontent.com/68102477/119937751-afe32800-bfce-11eb-8335-149b56dd6c7d.png)
 
 ![image](https://user-images.githubusercontent.com/68102477/119937791-bd98ad80-bfce-11eb-9c2b-9509b7b8142b.png)
 
 
-## Supervised and Unsupervised Learning Algorithms
+### Supervised and Unsupervised Learning Algorithms - Question-1
 
+
+![image](https://user-images.githubusercontent.com/68102477/119941779-61388c80-bfd4-11eb-85cc-b45fb97fcd44.png)
 
 
 ### Supervised vs Unsupervised Learning Algorithms - Question-2
@@ -90,5 +98,6 @@ Clustering
 
 
 ### Gaussian Naive Bayes Example
+
 ![image](https://user-images.githubusercontent.com/68102477/119923819-ce88f500-bfb5-11eb-9106-8329a735d8a1.png)
 
