@@ -29,14 +29,45 @@ Or even prepare the data to **train a machine learning model that predicts a stu
 ![image](https://user-images.githubusercontent.com/68102477/119937298-e3718280-bfcd-11eb-9400-6148f4b068df.png)
 
 
-Supervised vs Unsupervised Learning
+## Types of Machine Learning Problems
+
+![image](https://user-images.githubusercontent.com/68102477/119939475-47497a80-bfd1-11eb-8c33-f88afec645df.png)
+
+### Supervised Learning Example - 1
+
+![image](https://user-images.githubusercontent.com/68102477/119939678-8d9ed980-bfd1-11eb-8ec7-98dd9ed72979.png)
+
+### Supervised Learning Example - 2
+
+![image](https://user-images.githubusercontent.com/68102477/119921088-c11d3c00-bfb0-11eb-924e-54a8477a06af.png)
+
+### Scatter Plot
+
+![image](https://user-images.githubusercontent.com/68102477/119921410-4d2f6380-bfb1-11eb-80e7-dcdf0cdda142.png)
+
+### Decision Surface Line
+
+![image](https://user-images.githubusercontent.com/68102477/119923455-10656b80-bfb5-11eb-9667-d65a54475843.png)
+
+### Supervised Learning Example - 3
+
+![image](https://user-images.githubusercontent.com/68102477/119939872-d191de80-bfd1-11eb-9f87-9b2b26194a0c.png)
+
+### Supervised Learning - Classification vs Regression Problems
+
 ![image](https://user-images.githubusercontent.com/68102477/119937437-1ae02f00-bfce-11eb-88ea-ed4201a43396.png)
 
-Classification
+### Classification
+
 ![image](https://user-images.githubusercontent.com/68102477/119937547-4d8a2780-bfce-11eb-913c-9bdb02047e44.png)
 
-Regression
+### Regression
 ![image](https://user-images.githubusercontent.com/68102477/119937634-790d1200-bfce-11eb-9510-c56e674efea3.png)
+
+### Classificaiton vs Regression - Question-1
+
+![image](https://user-images.githubusercontent.com/68102477/119940339-609ef680-bfd2-11eb-966b-16d9bf2364a5.png)
+
 
 Unsupervised
 
@@ -52,20 +83,10 @@ Clustering
 ## Supervised and Unsupervised Learning Algorithms
 
 
+
+### Supervised vs Unsupervised Learning Algorithms - Question-2
+
 ![image](https://user-images.githubusercontent.com/68102477/119920682-13119200-bfb0-11eb-9d00-b4b95fb6a41c.png)
-
-
-
-![image](https://user-images.githubusercontent.com/68102477/119921088-c11d3c00-bfb0-11eb-924e-54a8477a06af.png)
-
-Scatter Plot
-
-![image](https://user-images.githubusercontent.com/68102477/119921410-4d2f6380-bfb1-11eb-80e7-dcdf0cdda142.png)
-
-
-![image](https://user-images.githubusercontent.com/68102477/119921484-6df7b900-bfb1-11eb-8ac4-5d9896eab85f.png)
-
-![image](https://user-images.githubusercontent.com/68102477/119923455-10656b80-bfb5-11eb-9667-d65a54475843.png)
 
 
 ### Gaussian Naive Bayes Example
