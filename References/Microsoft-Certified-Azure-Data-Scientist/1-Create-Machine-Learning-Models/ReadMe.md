@@ -29,4 +29,5 @@ Create an Azure Machine Learning workspace
 create a new Machine Learning
 Create a compute instance: Azure Machine Learning studio -> Manage -> create a new compute instance
 
-Clone the ml-basics repository
+Clone the [ml-basics](https://github.com/microsoftdocs/ml-basics) repository
+
