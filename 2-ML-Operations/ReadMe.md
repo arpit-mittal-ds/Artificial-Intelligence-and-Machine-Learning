@@ -134,21 +134,34 @@ Azure's documentation has a whole section on monitoring and collecting data with
 
 
 
-
-
-
-
 ## Consume Endpoints 
 
+This is the lesson about Consuming Endpoints. These endpoints allow other services to interact with deployed models. And in this lesson, you will learn all the key facts about interacting with them.
+
+There are some interesting details you need to be aware of when trying to use HTTP and you will go through each of these:
+
+**Swagger** (A tool that eases the documentation efforts of HTTP APIs)
+
+**Consuming deployed services**
+
+**Benchmarking** (being able to create a baseline of acceptable performance so that it can be compared to day-to-day behavior)
+
+### Creating a Benchmark
+
+**Further reading**
+[Chapter 4 of Python For DevOps](https://www.oreilly.com/library/view/python-for-devops/9781492057680/) covers benchmarking and other useful Linux utilities that can be useful
 
 
+### Swagger Documentation
 
+Swagger is a tool that helps build, document, and consume RESTful (A style for building HTTP endpoints that emphasizes separation of concerns) web services like the ones you are deploying in Azure ML Studio. It further explains what types of HTTP requests that an API can consume, like POST and GET.
 
+Azure provides a swagger.json that is used to create a web site that documents the HTTP endpoint for a deployed model.
 
+![image](https://user-images.githubusercontent.com/68102477/123007946-62a37c00-d3fd-11eb-8e9f-6d04f5dd006b.png)
 
-## Consume Endpoints 
-
-
+Further reading
+[The Swagger homepage](https://swagger.io/tools/swagger-ui/) has in-depth examples and usage to dig further into other details.
 
 
 
