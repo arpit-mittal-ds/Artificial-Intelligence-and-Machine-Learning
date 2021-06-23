@@ -253,7 +253,7 @@ Running pipelines. We'll learn how to run pipelines and experiments, as well as 
 Hyperparameters in experiments. Finally, we'll learn how to use hyperparameters in experiments, including how we can automate the creation of hyperparameters and make very small changes that create huge value in terms of prediction accuracy.
 Monitoring models with application insights. Finally, we'll talk about how we can leverage Azure's Application Insights infrastructure to monitor the performance of our models in production.
 
-### Introduction to Designer
+## Designer
 
 The Designer is a no code/low code interface that allows you to organize resources using a simple drag-and-drop interface. You can use the Designer to build, test, and deploy your ML models. 
 
@@ -270,9 +270,9 @@ The Designer can be used to organize and configure a variety of resources, inclu
 
 Note that the Designer has many sample projects, which provide a great way to get started and learn the interface.
 
-## Managing Pipelines
 
-### What is Azure Pipelines?
+
+## What is Azure Pipelines?
 Azure Pipelines is a cloud service that incorporates the DevOps approach of Continuous Integration (CI) and Continuous Delivery (CD) to automate your ML workflow. With Azure Pipelines, you can:
 
 Automatically build and test your code project
@@ -284,14 +284,26 @@ You can use the Designer to set up your pipeline using a low code/no code, drag-
 You can use the console to go through and adjust an existing pipeline.
 You can use the Azure ML SDK to programmatically control your pipeline with Python.
 You can use a notebook to spin up a pipeline, configure it, and rerun it whenever needed.
-Components of an AzureML Pipeline
-An AzureML pipeline has several main components:
 
-Data preparation. This involves steps like importing, validating, cleaning, wrangling (or "munging"), transforming, normalizing, and staging your data. This step tends to be a large proportion of the work in most ML projects.
-Training configuration. A typical training configuration includes steps like parameterization, file paths, logging, and reporting.
-Training validation. Training validation involves repeatedly running through your experiment, picking different hardware, compute resources, doing distributed computing, and also monitoring your progress.
-Model deployment. The final step is to deploy the model. This typically involves actions like versioning, scaling, provisioning, and configuring access control.
+![image](https://user-images.githubusercontent.com/68102477/123048537-d9626880-d441-11eb-8575-509b84e6ee21.png)
+
+## An AzureML pipeline has several main components:
+
+![image](https://user-images.githubusercontent.com/68102477/123048594-e8e1b180-d441-11eb-8fcb-67b955c8d564.png)
+
+**Data preparation** 
+This involves steps like importing, validating, cleaning, wrangling (or "munging"), transforming, normalizing, and staging your data. This step tends to be a large proportion of the work in most ML projects.
+
+**Training configuration**
+A typical training configuration includes steps like parameterization, file paths, logging, and reporting.
+
+**Training validation**
+Training validation involves repeatedly running through your experiment, picking different hardware, compute resources, doing distributed computing, and also monitoring your progress.
+
+**Model deployment**
+The final step is to deploy the model. This typically involves actions like versioning, scaling, provisioning, and configuring access control.
 The Azure Machine Learning Workspace
+
 A lot of the complicated inner workings of a pipeline are automated for you behind the scenes by the Azure Machine Learning Workspace. You can see this in the diagram below:
 
 ![image](https://user-images.githubusercontent.com/68102477/122871030-cbddad80-d371-11eb-835b-40707d5acbb7.png)
@@ -299,7 +311,7 @@ A lot of the complicated inner workings of a pipeline are automated for you behi
 
 You don't need to understand or remember all of the details shown here, but one key idea to understand is that this system supports an MLOps approach by providing a traceable data lineage—meaning, you have visibility into the process that the data has undergone, including the origin of the data and the root cause of any errors that arise.
 
-### Hyperparameters in Experiments
+## Hyperparameters in Experiments
 
 Key Tasks for Using Hyperparameters in Experiments
 Using hyperparameters in experiments involves the following key tasks:
@@ -519,20 +531,4 @@ In this lesson, we'll see how we can use Automated ML and Hyperparameter tuning 
 Automated ML and SDK. We'll discuss how we can use the Azure ML SDK with AutoML to operationalize and automate model creation—allowing you to create models more quickly and accurately.
 Model Interpretation. We'll explore how model interpretation allows us to build solutions using AutoML that we (and others) can more easily interpret, making visible the core features that are driving the model.
 Exporting Models with ONNX. ONNX is a portability platform for models that was created by Microsoft and that allows you to convert models from one framework to another, or even to deploy models to a device (such as an iOS or Android mobile device).
-
-
-
-
-
-
-
-
-## Project: Creating and Optimizing an ML Pipeline
-
-In the project at the end of this course, you'll have the opportunity to create and optimize an ML pipeline. You'll do this both using HyperDrive and also Automated ML, so that you can compare the results of the two methods.
-
------------------------------------------------------------------------------------------------------------------
-
-
-
 
