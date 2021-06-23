@@ -268,8 +268,9 @@ The Designer can be used to organize and configure a variety of resources, inclu
 [Published pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#publish)
 [Real-time endpoints](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#deploy)
 
-Note that the Designer has many sample projects, which provide a great way to get started and learn the interface.
+![image](https://user-images.githubusercontent.com/68102477/123063205-8a6fff80-d450-11eb-88e3-e132c141d9d7.png)
 
+Note that the Designer has many sample projects, which provide a great way to get started and learn the interface.
 
 
 ## What is Azure Pipelines?
@@ -313,18 +314,28 @@ You don't need to understand or remember all of the details shown here, but one 
 
 ## Hyperparameters in Experiments
 
-Key Tasks for Using Hyperparameters in Experiments
-Using hyperparameters in experiments involves the following key tasks:
+**Using hyperparameters in experiments involves the following key tasks:**
 
 Define the parameter search space.
-Optimize a chosen metric.
-Specify termination—meaning, define the criteria that say when the process should be terminated.
-Allocate resources, such as selecting the compute clusters you'll use.
-Launch an experiment using an Azure pipeline.
-Visualize the results to see what you actually created.
-On the next page, we'll get some hands-on practice with this process, including how to choose runs that have the best hyperparameter tuning.
 
-### Monitoring Models with Application Insights
+Optimize a chosen metric.
+
+Specify termination—meaning, define the criteria that say when the process should be terminated.
+
+Allocate resources, such as selecting the compute clusters you'll use.
+
+Launch an experiment using an Azure pipeline.
+
+Visualize the results to see what you actually created.
+
+![image](https://user-images.githubusercontent.com/68102477/123063383-b2f7f980-d450-11eb-840e-4015ab46d9e4.png)
+
+![image](https://user-images.githubusercontent.com/68102477/123063523-d6bb3f80-d450-11eb-8043-1bb4721afdb3.png)
+
+![image](https://user-images.githubusercontent.com/68102477/123063538-db7ff380-d450-11eb-80ee-592253e70027.png)
+
+
+## Monitoring Models with Application Insights
 
 Once you have deployed an ML model, you need to monitor the model's performance—which you can do using Microsoft Azure's Application Insights. Application Insights is an Application Performance Management (APM) service that is available as a feature of Azure Monitor.
 
