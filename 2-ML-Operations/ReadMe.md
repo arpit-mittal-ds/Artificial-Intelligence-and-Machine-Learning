@@ -1,6 +1,12 @@
 # Notes
 
-## Deploy A Model
+**1. DEPLOY A MODEL**
+
+**2. CONSUME ENDPOINTS**
+
+**3. PIPELINE AUTOMATION**
+
+# DEPLOY A MODEL
 
 In this lesson we will talk about model deployments, and what are all the important details you want to be aware of when shipping models into production.
 
@@ -133,8 +139,7 @@ Further reading
 Azure's documentation has a whole section on monitoring and collecting data with [Application Insights](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-app-insights)
 
 
-
-## Consume Endpoints 
+# CONSUME ENDPOINTS
 
 This is the lesson about Consuming Endpoints. These endpoints allow other services to interact with deployed models. And in this lesson, you will learn all the key facts about interacting with them.
 
@@ -314,7 +319,7 @@ This lesson covered a lot of material related to a deployed model: starting with
 [Chapter 4 of Python For DevOps](https://www.oreilly.com/library/view/python-for-devops/9781492057680/) covers benchmarking and other useful Linux utilities that can be useful
 
 
-## Pipeline Automation
+# PIPELINE AUTOMATION
 
 In this lesson, we will go into more detail about automation. Automation is a core pillar of DevOps applicable to Machine Learning operations.
 
