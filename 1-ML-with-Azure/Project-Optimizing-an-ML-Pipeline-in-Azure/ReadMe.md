@@ -1,6 +1,12 @@
-In this project, you'll have the opportunity to create and optimize an ML pipeline. You'll be provided a custom-coded model—a standard Scikit-learn Logistic Regression—the hyperparameters of which you will optimize using HyperDrive. You'll also use AutoML to build and optimize a model on the same dataset, so that you can compare the results of the two methods.
+# Project: Creating and Optimizing an ML Pipeline in Microsoft Azure
 
-You can see the main steps that you'll be taking in the diagram below:
+I had the opportunity to create and optimize an ML pipeline. I did this using both HyperDrive and Automated ML, so that I could compare the results of the two methods.
+
+I was provided a custom-coded model— A standard Scikit-learn Logistic Regression — the hyperparameters of which I would optimize using HyperDrive. 
+
+I then used AutoML to build and optimize a model on the same dataset, so that I could compare the results of the two methods.
+
+### Main steps taken:
 
 ![image](https://user-images.githubusercontent.com/68102477/122883929-fc791380-d380-11eb-87b2-1dcb4680ccaa.png)
 
