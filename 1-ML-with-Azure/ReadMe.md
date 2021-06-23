@@ -2,19 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/68102477/119915814-a776f700-bfa6-11eb-8d1c-7e3abd6e330b.png)
 
-## Lesson 1: Introduction to Azure Machine Learning
-
-We had a look at a preview of what I'll build on my final project.
-
-Why Do ML in the Cloud? We'll go over some key reasons why you would want to do Machine Learning (ML) in the cloud. We'll look into some of the limitations of performing ML locally on your machine, as well as how the cloud addresses these limitations.
-
-When to Do ML in the Cloud. Most of the time the cloud is your best option for ML. But we'll discuss a few edge cases in which using the cloud may not be the best route.
-Customers of ML. We'll look at the different customers of machine learning, including both internal and external customers.
-
-
-![image](https://user-images.githubusercontent.com/68102477/122037619-19a96180-ce18-11eb-81e9-31b0c7672f77.png)
+# LESSON 1 INTRO TO AZURE ML
 
 [Microsoft Documentation: What is automated machine learning?](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+
+[Auto ML](https://docs.microsoft.com/en-us/learn/modules/use-automated-machine-learning/)
 
 ### Why Do Machine Learning in the Cloud?
 
@@ -28,24 +20,29 @@ DevOps build systems, allowing you to integrate DevOps pipelines with your machi
 
 Serverless technology, in which Azure runs the server and handles the provisioning of machine resources for you automatically, allowing you to more easily solve complex orchestration problems.
 
-[What is elastic computing or cloud elasticity?](What is elastic computing or cloud elasticity?)
+[What is elastic computing or cloud elasticity?](https://azure.microsoft.com/en-us/overview/what-is-elastic-computing/)
 
-### When to Do ML in the Cloud
+### When and When not to do ML in the Cloud
 
 Most of the time the cloud is your best option for ML. Some reasons to favor cloud computing include:
 
 Data governance. Cloud solutions offer additional security to help prevent problems like data breaches and piracy.
+
 Better ability to leverage new services. A cloud-native approach allows you to leverage new services as they're developed. You're betting on the future, knowing that the cloud platform will get a constant set of new features (in contrast to you needing to build those features yourself).
-Even so, there are a few edge cases in which using the cloud may not be the best route. These include:
+
+**Even so, there are a few edge cases in which using the cloud may not be the best route. These include:**
 
 Legal/government requirements. If your company handles sensitive data, such as medical records or government files, it may not be legally possible to move to the cloud.
+
 Legacy applications. If you have a legacy application that is currently working, but that is unlikely to be updated, it may not make sense to take the risk of moving it to the cloud.
+
 Specialized HPC. In some cases, you may already have a specialized and very expensive High Performance Computing (HPC) cluster. In such a case, it may be more cost effective to keep what you have and only use the cloud for some parts of your workflow.
 
 ### Additional Resources
+
 [Microsoft Documentation: Comparison between Azure data storage and on-premises storage](https://docs.microsoft.com/en-us/learn/modules/intro-to-data-in-azure/4-comparison-azure-and-on-prem-storage)
 
-### Customers of Machine Learning
+## Customers of Machine Learning
 
 Additional Resources
 If you'd like to read more about bias and discrimination, you may want to check out:
@@ -57,34 +54,32 @@ The paper, [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org
 How can your company perform a [digital transformation?](https://docs.microsoft.com/en-us/learn/modules/enable-digital-transformation/2-what-is-digital-transformation)
 
 
-## Workspaces and the Azure ML Studio
-
-
-
-## Lesson 2: Workspaces and AzureML Studio
+# LESSON 2: WORKSPACES AND AZURE-ML STUDIO
 
 The Azure ML Platform. We'll talk about the core features of the Microsoft Azure ML platform and how they enable you to be more productive as a data scientist or machine learning engineer.
 Workspaces and Notebooks. Workspaces and notebooks are critical components of Microsoft Azure. We'll learn how these tools enable you to be a more effective data scientist—including the use of Jupyter to build and deploy machine learning models.
 
 ### The Azure ML platform is composed of two main components: The Azure Cloud and Azure ML Studio.
 
-Key features of Azure Cloud include:
+**Key features of Azure Cloud include:**
 
 Scalable, on-demand compute instances.
 
 Data storage and connectivity.
 
-Key features of Azure ML studio include:
+**Key features of Azure ML studio include:**
 
 The ability to easily orchestrate machine learning workflows.
 
 Model registration and management (or MLOps). This allows you to register models or track them and control the [lineage](https://en.wikipedia.org/wiki/Data_lineage).
+
 Metrics and monitoring, giving you the ability to look at the compute, the storage, or a training job, and make sure that it's running effectively.
+
 Model deployment; you can create an inference end point and deploy your model so that it runs 24/7 and is elastically scaled to meet demand.
 
 [ Microsoft's official documentation on the Azure ML Plaftorm](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml)
 
-Managing compute resources effectively involves several main components:
+### Managing compute resources effectively involves several main components:
 
 Compute instances
 A central component of managing compute resources involves the ability to spin up a Virtual Machine (VM), provision the correct resources for that VM, and then launch a notebook—which you can then use to control other components of your project, such as by calling out to a compute cluster.
@@ -147,15 +142,7 @@ Managing and choosing compute resources. We explored the role of compute instanc
 Workspaces and Notebooks. Workspaces and notebooks are critical components of Microsoft Azure. We learned how these tools enable you to be a more effective data scientist—including the use of Jupyter to build and deploy machine learning models.
 
 
-
-
-
-
-
-
-
-
-## Lesson 3: Datastores and Datasets
+# LESSON 3 DATASTORES AND DATASETS
 
 Datastores and Datasets. Datastores and Datasets are a critical component of cloud computing. We'll learn how Azure allows you to easily integrate third party datasets and open datasets into our ML pipeline to quickly develop working solutions.
 
@@ -338,14 +325,7 @@ Running pipelines. We learned how to run pipelines and experiments, as well as h
 Hyperparameters in experiments. Finally, we learned how to use hyperparameters in experiments, including how we can automate the creation of hyperparameters and make very small changes that create huge value in terms of prediction accuracy.
 Monitoring models with application insights. Finally, we talked about how we can leverage Azure's Application Insights infrastructure to monitor the performance of our models in production.
 
-
-
-
-
-
-
-
-## Lesson 5: Azure ML SDK
+# LESSON 5 AZURE ML SDK
 
 Creating pipelines. We'll talk about how the Azure ML SDK allows us to programmatically create pipelines. By automating the creation of pipelines, we can create more pipelines; also, our pipeline creation becomes a a repeatable process that other members of our team can follow.
 Managing experiments. We'll learn how to use the SDK to manage experiments programmatically with Python, allowing us to easily rerun our processes using Python scripts.
