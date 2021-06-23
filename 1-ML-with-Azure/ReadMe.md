@@ -183,10 +183,13 @@ Register a baseline Dataset. This would be a Dataset that has a good fit with yo
 Register a target Dataset. This might be your model input data that you are receiving over time.
 Check for a delta. If there's a specified delta (i.e., a given magnitude of difference) between the baseline and target Datasets, the system will trigger an alert (such as an email) and/or some form of automatic, corrective action (such as re-training the model).
 
-### Using Datasets in Notebooks
+## Using Datasets in Notebooks
+
+![image](https://user-images.githubusercontent.com/68102477/123044743-69ea7a00-d43d-11eb-81ea-8c34e582ef5a.png)
+
 Notebooks provide the main control point for interfacing with the Azure ML platform. You can use them to control things like model deployments and distributed training, and they also provide a convenient way to share with other people on your team. In this section, we'll get into how you can use Datasets in your notebooks.
 
-There are two Dataset types you should take note of:
+### There are two Dataset types you should take note of:
 
 FileDataset. This is a generic Dataset type. This is useful for things like computer vision or anything where you need to have a lot of flexibility.
 
@@ -232,26 +235,31 @@ Dataset monitoring and data drift. If you collect your data, train a model, and 
 Using Datasets in notebooks. We covered the workflow for using Datasets in notebook, and we showed you how you can leverage the open Datasets that are available in Azure.
 Dealing with sensitive data. One of the most important topics in ML is how to handle personally identifiable information and protect it using encryption.
 
-
-
-## Lesson 4: Training models in Azure
+# LESSON 4 TRAINING MODELS IN AZURE
 
 Managing pipelines. We'll cover how to create a pipeline that you manage yourself using the console, which will alow you to make very small changes that can be run repeatedly.
 Hyperparameters in experiments. We'll learn how to use hyperparameters in experiments, including how we can automate the creation of hyperparameters and make very small changes that create huge value in terms of prediction accuracy.
 
-### Lesson Outline: Training models in Azure
+## Lesson Outline: Training models in Azure
 
 This lesson is all about training models. Here's what we'll be covering in this lesson:
 
 Introduction to Designer. First, we'll learn how we can quickly build our models using the no code/low code, drag-and-drop interface of the Designer.
+
 Managing pipelines. We'll cover how to create a pipeline that we manage ourselves using the console, which will allow us to make very small changes that can be run repeatedly. Our goal in managing our pipelines is to do MLOps—that is, to apply a DevOps-based workflow to ML.
+
 Running pipelines. We'll learn how to run pipelines and experiments, as well as how to look at the output and tune our models.
+
 Hyperparameters in experiments. Finally, we'll learn how to use hyperparameters in experiments, including how we can automate the creation of hyperparameters and make very small changes that create huge value in terms of prediction accuracy.
 Monitoring models with application insights. Finally, we'll talk about how we can leverage Azure's Application Insights infrastructure to monitor the performance of our models in production.
 
 ### Introduction to Designer
 
-The Designer is a no code/low code interface that allows you to organize resources using a simple drag-and-drop interface. You can use the Designer to build, test, and deploy your ML models. The Designer can be used to organize and configure a variety of resources, including:
+The Designer is a no code/low code interface that allows you to organize resources using a simple drag-and-drop interface. You can use the Designer to build, test, and deploy your ML models. 
+
+![image](https://user-images.githubusercontent.com/68102477/123044917-ab7b2500-d43d-11eb-948d-27e746507ade.png)
+
+The Designer can be used to organize and configure a variety of resources, including:
 
 [Pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#pipeline)
 [Datasets](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#datasets)
@@ -262,9 +270,9 @@ The Designer is a no code/low code interface that allows you to organize resourc
 
 Note that the Designer has many sample projects, which provide a great way to get started and learn the interface.
 
-### Managing Pipelines
+## Managing Pipelines
 
-What is Azure Pipelines?
+### What is Azure Pipelines?
 Azure Pipelines is a cloud service that incorporates the DevOps approach of Continuous Integration (CI) and Continuous Delivery (CD) to automate your ML workflow. With Azure Pipelines, you can:
 
 Automatically build and test your code project
