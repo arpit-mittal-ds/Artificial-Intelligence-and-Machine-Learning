@@ -1,10 +1,12 @@
 # Notes [Build and operate ML solutions with Azure](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)
 
-## INTRODUCTION TO AZURE ML SDK
+## [AZURE ML EXERCISES](https://microsoftlearning.github.io/mslearn-dp100/)
+
+# INTRODUCTION TO AZURE ML 
 
 Azure ML is a platform for operating machine learning workloads in the **cloud**.
 
-### Workspaces
+## WORKSPACES
 
 ![image](https://user-images.githubusercontent.com/68102477/123052923-b25a6580-d446-11eb-9867-13698270b56b.png)
 
@@ -20,6 +22,48 @@ A container registry, created as-needed to manage containers for deployed models
 
 [Azure Machine Learning Exercises](https://microsoftlearning.github.io/mslearn-dp100/)
 
-### Studio
+## AZURE ML TOOLS AND INTERFACES tools and interfaces
+
+### 1. Azure [ML Studio](https://ml.azure.com/)
+
+Azure ML studio is a web-based tool for managing an Azure ML Workspacce. 
+
+It enables you to create, manage, and view all of the assets in your workspace and provides the following **graphical tools**:
+
+**Designer:**  A drag and drop interface for "no code" machine learning model development.
+
+**Auto ML:** A wizard interface that enables you to train a model using a combination of algorithms and data preprocessing techniques to find the best model for your data.
+
+### 2. The Azure Machine Learning SDK
+
+While **graphical interfaces like Azure ML studio** make it easy to create and manage machine learning assets, it is often advantageous to use a **code-based approach** to managing resources. 
+
+**By writing scripts to create and manage resources, we can:**
+
+Run ML Operations from our preferred development environment.
+
+Automate asset creation and configuration to make it repeatable.
+
+Ensure consistency for resources that must be replicated in multiple environments (for example, development, test, and production)
+
+Incorporate machine learning asset configuration into developer operations (DevOps) workflows, such as continuous integration / continuous deployment (CI/CD) pipelines.
+
+
+### 3. Compute Instance
+
+Azure Machine Learning includes the ability to create Compute Instances in a workspace to provide a development environment that is managed with all of the other assets in the workspace.
+
+# TRAIN AN ML MODEL
+
+Use a ScriptRunConfig to run a model training script as an Azure Machine Learning experiment.
+
+Create reusable, parameterized training scripts.
+
+Register trained models.
+
+**Prerequisites**
+
+Experience of training machine learning models using Python frameworks such as scikit-learn
+
 
 
