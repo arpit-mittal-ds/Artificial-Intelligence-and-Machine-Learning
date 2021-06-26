@@ -4,6 +4,9 @@
 
 # LESSON 1 INTRO TO AZURE ML
 
+![image](https://user-images.githubusercontent.com/68102477/123527810-f6d75100-d725-11eb-91c0-15a70bac2680.png)
+
+
 [Microsoft Documentation: What is automated machine learning?](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
 
 [Auto ML](https://docs.microsoft.com/en-us/learn/modules/use-automated-machine-learning/)
