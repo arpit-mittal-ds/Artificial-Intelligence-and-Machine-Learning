@@ -160,3 +160,5 @@ aka.ms
 
 MICROSOFT.COM/en-us/research/project/health-bot
 
+![image](https://user-images.githubusercontent.com/68102477/124057574-0ed30b80-da6b-11eb-896d-1c1ee6a687e4.png)
+
