@@ -139,9 +139,17 @@ git clone all the code for AI
 
 ![image](https://user-images.githubusercontent.com/68102477/124052528-eeeb1a00-da61-11eb-8674-197c42d1461d.png)
 
-
+demo - image classification
 ![image](https://user-images.githubusercontent.com/68102477/124052572-0a562500-da62-11eb-8ae7-00a7b7c19481.png)
 
 aka.ms
+
+![image](https://user-images.githubusercontent.com/68102477/124053573-daa81c80-da63-11eb-8140-e5ea077fada3.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124053355-6cfbf080-da63-11eb-8095-5e5c46bbc8a9.png)
+
+
+# NLP
+
 
 
