@@ -2,6 +2,11 @@
 
 # WHAT IS AI
 
+![image](https://user-images.githubusercontent.com/68102477/124063847-18627080-da77-11eb-8499-2a0ee460a968.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124063877-26b08c80-da77-11eb-860c-726245f4dc93.png)
+
+
 Simply put, AI is the creation of software that imitates human behaviors and capabilities. Key elements include:
 
 **Machine learning** - This is often the foundation for an AI system, and is the way we "teach" a computer model to make prediction and draw conclusions from data.
@@ -14,9 +19,23 @@ Simply put, AI is the creation of software that imitates human behaviors and cap
 
 **Conversational AI** - The capability of a software "agent" to participate in a conversation.
 
-## Machine Learning
+## Responsible AI
+
+![image](https://user-images.githubusercontent.com/68102477/124063985-4ba4ff80-da77-11eb-838d-ece97cdfc72c.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124063997-52cc0d80-da77-11eb-982e-fd5e3c201db7.png)
+
+## AI with Azure
+
+![image](https://user-images.githubusercontent.com/68102477/124063939-3b8d2000-da77-11eb-91a8-e56788cef123.png)
+
+
+# MACHINE LEARNING
 
 Data scientists use data to **train ML models** that can make **predictions** and inferences based on the **relationships they find in the data.**
+
+![image](https://user-images.githubusercontent.com/68102477/124064245-b8b89500-da77-11eb-9f5f-07d18aa17cff.png)
+
 
 ### EXAMPLE - [Yield](https://news.microsoft.com/transform/videos/yield-feed-world-without-wrecking-planet/) 
 
@@ -36,19 +55,38 @@ Suppose an environmental conservation organization wants volunteers to identify 
 
 5. **When new samples are found by volunteers, the model can identify the correct species label.**
 
+## Regression
 
-### MACHINE LEARNING IN MICROSOFT AZURE
+![image](https://user-images.githubusercontent.com/68102477/124064288-c9690b00-da77-11eb-8ab4-0764953add03.png)
+
+## Classification
+
+![image](https://user-images.githubusercontent.com/68102477/124064309-d38b0980-da77-11eb-9222-f29398eca883.png)
+
+## Clustering
+
+![image](https://user-images.githubusercontent.com/68102477/124064321-db4aae00-da77-11eb-81d6-19d015b0220f.png)
+
+
+## MACHINE LEARNING IN MICROSOFT AZURE
 
 Microsoft Azure provides the Azure Machine Learning service - a cloud-based platform for creating, managing, and publishing machine learning models. Azure Machine Learning provides the following features and capabilities:
 
+![image](https://user-images.githubusercontent.com/68102477/124064350-eb628d80-da77-11eb-8943-31a724a6008e.png)
 
 **Automated machine learning**
 
 This feature enables non-experts to quickly create an effective machine learning model from data.
 
+![image](https://user-images.githubusercontent.com/68102477/124064373-f3bac880-da77-11eb-8d8d-7e2dab048936.png)
+
+
 **Azure Machine Learning designer**
 
 A graphical interface enabling no-code development of machine learning solutions.
+
+![image](https://user-images.githubusercontent.com/68102477/124064390-fc130380-da77-11eb-879e-71de3df72f9c.png)
+
 
 **Data and compute management**
 
@@ -58,7 +96,7 @@ Cloud-based data storage and compute resources that professional data scientists
 
 Data scientists, software engineers, and IT operations professionals can define pipelines to orchestrate model training, deployment, and management tasks.
 
-## Anomaly Detection
+# ANOMALY DETECTION
 
 Examples:
 
@@ -76,19 +114,51 @@ A racing car telemetry system that uses sensors to proactively warn engineers ab
 
 3. If a measurement occurs outside of the normal expected range, the model reports an anomaly that can be used to alert the race engineer to call the driver in for a pit stop to fix the issue before it forces retirement from the race.
 
-### Anomaly detection in Microsoft Azure
+## Anomaly detection in Microsoft Azure
 
 [ Anomaly Detector service ](https://azure.microsoft.com/en-us/services/cognitive-services/anomaly-detector/)
 
 provides an application programming interface (API) that developers can use to create anomaly detection solutions.
 
-## Computer Vision 
+# COMPUTER VISION
 
-## Natural Language Processing (NLP)
+![image](https://user-images.githubusercontent.com/68102477/124064723-aee36180-da78-11eb-82da-75d789195745.png)
 
-## Conversational AI 
+## Cognitive Services
+
+![image](https://user-images.githubusercontent.com/68102477/124064757-c7ec1280-da78-11eb-9167-90f203272735.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124064764-cc183000-da78-11eb-87c5-5d83cb2fe2e3.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124064778-d2a6a780-da78-11eb-82b1-2ce5cd984e76.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124064788-d76b5b80-da78-11eb-8e10-1f20c5368f98.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124064797-dcc8a600-da78-11eb-9494-6315a10686c3.png)
+
+# NATURAL LANGUAGE PROCESSING
+
+![image](https://user-images.githubusercontent.com/68102477/124064950-26b18c00-da79-11eb-8c60-7a2c50c7790a.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124064977-33ce7b00-da79-11eb-906e-a51511b7a617.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065025-48ab0e80-da79-11eb-8fe5-16ff937fbc18.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065036-4cd72c00-da79-11eb-8f05-866f9ac57cc5.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065048-51034980-da79-11eb-89a1-ae681e3fceef.png)
 
 
+
+# CONVERSATIONAL AI
+
+![image](https://user-images.githubusercontent.com/68102477/124065074-59f41b00-da79-11eb-8c23-866bf1d4e492.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065097-64161980-da79-11eb-921e-77ca2380c318.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065108-6a0bfa80-da79-11eb-9d35-be82080b1ef1.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124065121-6d06eb00-da79-11eb-8ba7-0d1c4c2cacff.png)
 
 ![image](https://user-images.githubusercontent.com/68102477/124049649-51d9b280-da5c-11eb-8efd-f4ba0ca74c0c.png)
 
