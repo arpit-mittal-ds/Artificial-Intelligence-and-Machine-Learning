@@ -80,6 +80,9 @@ This feature enables non-experts to quickly create an effective machine learning
 
 ![image](https://user-images.githubusercontent.com/68102477/124064373-f3bac880-da77-11eb-8d8d-7e2dab048936.png)
 
+![image](https://user-images.githubusercontent.com/68102477/124049919-d0365480-da5c-11eb-9c92-0e59c95538cc.png)
+
+![image](https://user-images.githubusercontent.com/68102477/124050002-f4923100-da5c-11eb-9b00-1740a54110e9.png)
 
 **Azure Machine Learning designer**
 
@@ -162,19 +165,7 @@ provides an application programming interface (API) that developers can use to c
 
 ![image](https://user-images.githubusercontent.com/68102477/124049649-51d9b280-da5c-11eb-8efd-f4ba0ca74c0c.png)
 
-auto ml
-![image](https://user-images.githubusercontent.com/68102477/124049919-d0365480-da5c-11eb-9c92-0e59c95538cc.png)
 
-![image](https://user-images.githubusercontent.com/68102477/124050002-f4923100-da5c-11eb-9b00-1740a54110e9.png)
-![image](https://user-images.githubusercontent.com/68102477/124050266-944fbf00-da5d-11eb-9f44-f68739c57314.png)
-![image](https://user-images.githubusercontent.com/68102477/124050271-9580ec00-da5d-11eb-8620-8aa4ff41cba7.png)
-![image](https://user-images.githubusercontent.com/68102477/124050284-9ade3680-da5d-11eb-929a-6fc014488354.png)
-![image](https://user-images.githubusercontent.com/68102477/124050294-a16cae00-da5d-11eb-860c-bcc57577af6c.png)
-![image](https://user-images.githubusercontent.com/68102477/124050323-afbaca00-da5d-11eb-959f-f7fc7728ccb3.png)
-![image](https://user-images.githubusercontent.com/68102477/124050334-b6e1d800-da5d-11eb-83f0-40a43a549bc9.png)
-
-
- ![image](https://user-images.githubusercontent.com/68102477/124051144-48057e80-da5f-11eb-86a5-f61bfe813e2b.png)
 
 # COMPUTER VISION
 
