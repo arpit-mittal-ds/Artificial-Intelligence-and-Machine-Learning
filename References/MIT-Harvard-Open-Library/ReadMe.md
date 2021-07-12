@@ -60,3 +60,7 @@ Without making some assumptions about the nature of the process generating the d
 
 https://user-images.githubusercontent.com/68102477/125219024-701a9a80-e307-11eb-9a5e-bff28cc1a535.mp4
 
+There's this a kind of romantic idea about machine learning, which is that it's this magic box, and you pour data in one end and out comes super awesome programs to do things.
+And it's not so easy, right?
+
+And so-- and the human has a big role to play in setting up a machine learning program or a machine learning solution to a problem.
